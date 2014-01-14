@@ -20,8 +20,13 @@
 
 ## Usage
 
+`$ npm install -g lute`
+
+
 `$ lute`
+
 `$ lute 3000`
+
 `$ lute open`
 
 ## TODO
