@@ -1,0 +1,35 @@
+{
+  "name": "lute",
+  "description": "static dev server",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/lute",
+  "repository": "git://github.com/wearefractal/lute.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "dependencies": {
+    "tiny-lr": "0.0.5",
+    "gulp": "~3.2.0",
+    "express": "~3.4.7",
+    "gulp-util": "~2.2.0",
+    "portfinder": "~0.2.1",
+    "cheerio": "~0.13.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "bin": {
+    "lute": "./bin/lute.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/lute/raw/master/LICENSE"
+    }
+  ]
+}
