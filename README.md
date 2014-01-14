@@ -22,12 +22,16 @@
 
 `$ npm install -g lute`
 
+Running 'lute' in a directory will serve that dir and set up LiveReload - no need to have the plugin as it will inject the livereload script into your index
 
 `$ lute`
+Serves current directory on default port (8080).  Will find an open port if it's not available
 
 `$ lute 3000`
+Serves current directory on 3000, will find an open port if not available
 
 `$ lute open`
+Serves current dir and opens in your browser 
 
 ## TODO
 
