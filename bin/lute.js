@@ -5,4 +5,4 @@ var isInt = require('../lib/util/isInt');
 var serve = require('../lib/serve');
 var port  = (argv.p && isInt(argv.p)) ? argv.p : 8080;
 
-serve(port, (argv._.indexOf('open') !== -1), argv);
+serve(port, argv);
