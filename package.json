@@ -11,7 +11,8 @@
     "express": "~3.4.7",
     "gulp-util": "~2.2.0",
     "portfinder": "~0.2.1",
-    "cheerio": "~0.13.1"
+    "cheerio": "~0.13.1",
+    "minimist": "0.0.8"
   },
   "devDependencies": {
     "mocha": "*",
