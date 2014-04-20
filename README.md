@@ -5,7 +5,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>lute</td>
 </tr>
 <tr>
@@ -28,13 +28,13 @@ Running 'lute' in a directory will serve that dir and set up LiveReload - no nee
 
 Serves current directory on default port (8080).  Will find an open port if it's not available
 
-`$ lute 3000`
+`$ lute -p 3000`
 
-Serves current directory on 3000, will find an open port if not available
+`-p` option specifies a specific port. Executing this serves current directory on 3000, will find an open port if not available
 
 `$ lute open`
 
-Serves current dir and opens in your browser 
+Serves current dir and opens in your browser
 
 ## TODO
 
