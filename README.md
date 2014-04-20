@@ -28,13 +28,20 @@ Running 'lute' in a directory will serve that dir and set up LiveReload - no nee
 
 Serves current directory on default port (8080).  Will find an open port if it's not available
 
-`$ lute -p 3000`
-
-`-p` option specifies a specific port. Executing this serves current directory on 3000, will find an open port if not available
-
 `$ lute open`
 
 Serves current dir and opens in your browser
+
+### Options
+
+`$ lute -p 3000`
+
+This serves current directory on port 3000 - will find an open port if 3000 is not available
+
+`$ lute -i bower_components`
+
+This will ignore `bower_components` when watching for changes, relative to the path `lute` is launched from - use a comma-delimited list to pass multiple paths
+
 
 ## TODO
 
