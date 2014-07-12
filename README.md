@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/wearefractal/lute.png?branch=master)](https://travis-ci.org/wearefractal/lute)
-
 [![NPM version](https://badge.fury.io/js/lute.png)](http://badge.fury.io/js/lute)
 
 ## Information
@@ -14,7 +12,7 @@
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.4</td>
+<td>>= 0.10</td>
 </tr>
 </table>
 

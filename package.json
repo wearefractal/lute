@@ -16,7 +16,7 @@
     "tiny-lr": "^0.0.9"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 0.10.0"
   },
   "bin": {
     "lute": "./bin/lute.js"
