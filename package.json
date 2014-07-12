@@ -1,7 +1,7 @@
 {
   "name": "lute",
   "description": "static dev server",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://github.com/wearefractal/lute",
   "repository": "git://github.com/wearefractal/lute.git",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
