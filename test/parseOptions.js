@@ -1,5 +1,4 @@
 var assert = require('assert');
-var minimist = require('minimist');
 var parseOptions = require('../lib/util/parseOptions');
 var config = require('../lib/config');
 
@@ -27,11 +26,18 @@ describe('parseOptions', function () {
   });
 
   describe('custom lr port', function () {
-    var argv = { l: 2020 };
+    var argv = { l: 4040 };
 
     it('should change the live reload port', function () {
       var options = parseOptions(argv);
-      assert.equal(options.lrPort, 2020);
+      assert.equal(options.lrPort, 4040);
+    });
+  });
+
+  describe('open browser', function () {
+    it('should set open to true', function () {
+      var options = parseOptions({ o: true });
+      assert.equal(options.open, true);
     });
   });
 
