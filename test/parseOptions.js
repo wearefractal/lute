@@ -1,6 +1,7 @@
 var assert = require('assert');
 var minimist = require('minimist');
 var parseOptions = require('../lib/util/parseOptions');
+var config = require('../lib/config');
 
 function checkIgnore(path) {
   return '!./' + path + '/**/*';
@@ -10,8 +11,8 @@ describe('parseOptions', function () {
   it('should use the defaults', function () {
     var options = parseOptions({});
 
-    assert.equal(options.port, 8080);
-    assert.equal(options.lrPort, 35729);
+    assert.equal(options.port, config.httpPort);
+    assert.equal(options.lrPort, config.lrPort);
     assert.equal(options.open, false);
     assert.equal(typeof options.watchPath, 'undefined');
   });
