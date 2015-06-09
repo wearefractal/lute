@@ -6,13 +6,13 @@
   "repository": "git://github.com/wearefractal/lute.git",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
   "dependencies": {
-    "gulp": "^3.8.6",
-    "gulp-util": "^2.2.0",
-    "minimist": "^0.2.0",
+    "gulp": "^3.9.0",
+    "gulp-util": "^2.2.20",
+    "minimist": "^1.1.0",
     "open": "^0.0.5",
     "portfinder": "^0.2.1",
     "send": "^0.6.0",
-    "tiny-lr": "^0.0.9"
+    "tiny-lr": "^0.1.5"
   },
   "engines": {
     "node": ">= 0.10.0"
