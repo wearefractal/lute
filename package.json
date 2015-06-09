@@ -14,6 +14,9 @@
     "send": "^0.6.0",
     "tiny-lr": "^0.1.5"
   },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -25,5 +28,8 @@
       "type": "MIT",
       "url": "http://github.com/wearefractal/lute/raw/master/LICENSE"
     }
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
