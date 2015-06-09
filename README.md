@@ -24,22 +24,38 @@ Running 'lute' in a directory will serve that dir and set up LiveReload - no nee
 
 `$ lute`
 
-Serves current directory on default port (8080).  Will find an open port if it's not available
-
-`$ lute open`
-
-Serves current dir and opens in your browser
+Serves current directory on default port (8080).  Will find an open port if it's not available.
 
 ### Options
 
-`$ lute -p 3000`
-
-This serves current directory on port 3000 - will find an open port if 3000 is not available
-
-`$ lute -i bower_components`
-
-This will ignore `bower_components` when watching for changes, relative to the path `lute` is launched from - use a comma-delimited list to pass multiple paths
-
+<table>
+<tr>
+<td>Flag</td><td>Default</td><td>Description</td>
+</tr>
+<tr>
+<td>-o</td>
+<td></td>
+<td>Opens your browser</td>
+</tr>
+<tr>
+<td>-i</td>
+<td></td>
+<td>Set paths to ignore when using the watcher, relative to the path `lute` is launched from (use a comma-delimited list to pass multiple paths)
+</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>8080</td>
+<td>Select the port to serve the site on, will find an open port if not available
+</td>
+</tr>
+<tr>
+<td>-l</td>
+<td>35729</td>
+<td>Select the port for live-reload, will find an open port if not available
+</td>
+</tr>
+</table>
 
 ## TODO
 
